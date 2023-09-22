@@ -12,3 +12,19 @@ Here are a list of features and options that we are currently working on:
 * * Style of the effect (current ideas: Matrix Rain, Cyberpunk, Hacker, and Tony Stark OS)
 * * Speed of the effect (How fast each line generates)
 * * Optimal memory management for all users.
+
+## Moving Parts
++ Function that generates text and bars, line by line, for an indefinite amount of time but has a delay in processing time to allow for it to be read by humans.
+
++ The Effect is broken down into 3 parts: Startup sequence, proxy iteration, and termination sequence. Each one is played in order when the program starts but the program iteration runs idefinitely until the user presses the terminate command.
+
++ Memory should be cleared and resassigned frequently to prevent memory leaks and reduce memory usage. Variable declarations on the stack should be kept to a minimum.
+
++ Text and all data will be read from a file and potentially stored in dynamic memory (heap).
+
+## Helpful Resources & Tools
++ [Hiragana and Katakana Converter](https://www.lexilogos.com/keyboard/japanese.php)
++ [Glitch Text Generator](https://lingojam.com/GlitchTextGenerator)
++ [Hacking Scenes for Inspiration](https://www.youtube.com/watch?v=j7BVMYcdPxs)
++ [Matrix Intro Scene for Inspiration](https://www.youtube.com/watch?v=Smwrw4sNCxE)
++ [Iron Man Scene for Inspiraion](https://www.youtube.com/watch?v=EfmVRQjoNcY)
